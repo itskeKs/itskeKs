@@ -30,9 +30,11 @@ lists what works and what does not.
 behind it: bootstrap, playbook and session briefs for repositories where several
 coding agents work in parallel.
 
-**[coddy-agent](https://github.com/coddy-project/coddy-agent)** — contributions
-to an open-source coding agent in Go, focused on context cost (on-demand tool
-schema loading). Three pull requests, currently open.
+**[coddy-agent](https://github.com/coddy-project/coddy-agent)** —
+[22 merged pull requests](https://github.com/coddy-project/coddy-agent/pulls?q=is%3Apr+author%3AitskeKs+is%3Amerged)
+to an open-source coding agent in Go: memory search, session and goal handling,
+provider retries. Three more on context cost (on-demand tool schema loading) are
+in review.
 
 ### Get in touch
 

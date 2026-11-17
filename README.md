@@ -30,6 +30,17 @@ lists what works and what does not.
 behind it: bootstrap, playbook and session briefs for repositories where several
 coding agents work in parallel.
 
+**[reference-benchmark](https://github.com/itskeKs/reference-benchmark)** — how I
+measure instead of eyeballing: a Claude Code skill and a dependency-free Python
+harness that scores a pipeline, model or prompt against a fixed reference, shows
+where it is wrong and keeps a history of runs. It came out of a benchmark for an
+on-device speech pipeline.
+
+**[claude-context-janitor](https://github.com/itskeKs/claude-context-janitor)** —
+a Claude Code plugin that lists what a setup loads into every session
+(`CLAUDE.md`, skills, agents, MCP servers, hooks), what each item costs per
+request and how often it was used. It changes nothing until each item is approved.
+
 **[coddy-agent](https://github.com/coddy-project/coddy-agent)** —
 [22 merged pull requests](https://github.com/coddy-project/coddy-agent/pulls?q=is%3Apr+author%3AitskeKs+is%3Amerged)
 to an open-source coding agent in Go: memory search, session and goal handling,
